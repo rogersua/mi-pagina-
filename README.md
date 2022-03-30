@@ -1,2 +1,3 @@
-# mi-pagina-
-mi pagina de presentacion
+# pagina-roger-
+pagina de proyectos e ideas
+
