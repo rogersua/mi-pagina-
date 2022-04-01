@@ -38,7 +38,7 @@ html{
     color: rgb(83, 162, 231);
     text-decoration: none;
     font-size: 2rem;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 
@@ -62,4 +62,11 @@ html{
     background-color: black;
     height: var(--alto-footer);
     color: white;
+    display: flex;
+    align-items: center;
 }
+.iconos-redes__link-face__img{
+    width: 37px; 
+    border-radius: 100%;
+    margin-left: 15px;
+ }
