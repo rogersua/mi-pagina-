@@ -44,43 +44,49 @@ html{
 
 .main-container{
     display: flex;
-}
-.aside{
-    background-color: rgb(101, 78, 73);
-    width: 20%;
-    padding: 8px;
-    height: 84vh;
-    font-size: 5rem;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    color: aliceblue;
-}
-.card{
-    width: 100%;
-    height: AUTO;
-    background-color: rgb(120, 59, 44);
-    border-radius: 3%;
-    font-size: 2rem;
-}
-.section{
+    justify-content: center;
     background-color: rgb(150, 122, 119);
     padding: 10px;
-    width: 80%;
+}
+.TITULO{
+    width: 100%;
+    height: auto;
+    background-color: brown;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.section{
+    background-color: bisque;
+    padding: 5px;
+   
+    width: 100%;
     height: 84vh;
     font-size: 5rem;
 
 }
-.section__figure__img{
-    width: 200px;
-    border-radius: 100%;
-    border: solid rgb(0, 0, 0);
-    
+.contenido{
+    padding: 7px;
 }
+.container-programacion{
+    width: auto;
+    background-color: aqua;
+    border-radius: 5%;
+    display: flex;
+}
+.titulo-programacion{
+    background-color: rgb(23, 23, 220);
+    border-radius: 5%;
+}
+.contenedor-certificados{
+    display: flex;
+}    
+
 .footer{
     background-color: black;
     height: var(--alto-footer);
-    color: white;
+    color: rgb(7, 4, 4);
     display: flex;
     align-items: center;
 }
